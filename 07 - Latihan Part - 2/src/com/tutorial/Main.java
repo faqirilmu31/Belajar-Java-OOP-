@@ -93,13 +93,13 @@ public class Main {
         Weapon ketapel = new Weapon("ketapel", 1);
 
          // membuat object armor
-         Armor bajuBesi = new Armor("Baju Besi", 10);
-         Armor kaos = new Armor("Kaos", 0);
+        Armor bajuBesi = new Armor("Baju Besi", 10);
+        Armor kaos = new Armor("Kaos", 0);
 
          // player 1
-         player1.equipWeapon(pedang);
-         player1.equipArmor(bajuBesi);
-         player1.display();
+        player1.equipWeapon(pedang);
+        player1.equipArmor(bajuBesi);
+        player1.display();
 
         // player 2
         player2.equipWeapon(ketapel);
